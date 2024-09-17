@@ -1,0 +1,6 @@
+2024-09-16 21:04:15 [INFO] - Starting node 0, is Byzantine node: false
+2024-09-16 21:04:15 [INFO] - Node 0 is the primary node, simulating client request
+2024-09-16 21:04:15 [INFO] - Node 0 (primary node) is processing client request: operation 1
+2024-09-16 21:04:15 [INFO] - Node 0 started running
+2024-09-16 21:04:20 [INFO] - Node 0 detected a timeout, triggering view change
+2024-09-16 21:04:25 [INFO] - Node 0's new view timer timed out, view 1

@@ -1,0 +1,40 @@
+services:
+  node0:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    container_name: node0
+    command: ["0"]
+    networks:
+      - pbft_network
+
+  node1:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    container_name: node1
+    command: ["1"]
+    networks:
+      - pbft_network
+
+  node2:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    container_name: node2
+    command: ["2"]
+    networks:
+      - pbft_network
+
+  node3:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    container_name: node3
+    command: ["3"]
+    networks:
+      - pbft_network
+
+networks:
+  pbft_network:
+    driver: bridge

@@ -1,0 +1,36 @@
+[package]
+name = "pbft-blockchain"
+version = "0.1.0"
+edition = "2018"
+
+# 作者信息和项目描述
+# authors = ["zwang000@usc.edu"]
+# description = "A simple implementation of PBFT blockchain in Rust"
+# license = "MIT"
+
+[dependencies]
+# Tokio 异步运行时
+tokio = { version = "1.14.0", features = ["full"] }
+
+# 序列化和反序列化支持
+serde = { version = "1.0", features = ["derive"] }
+serde_json = "1.0"
+
+# 密码学相关库
+ring = "0.16.20"
+ed25519-dalek = { version = "1.0.1", features = ["std", "rand"] }
+
+# 日志库
+log = "0.4"
+env_logger = "0.9"
+
+# 其他辅助库
+lazy_static = "1.4.0"
+hex = "0.4"
+
+# 随机数生成器
+rand = "0.7"
+rand_core = "0.5"
+
+# 时间处理库
+chrono = "0.4"

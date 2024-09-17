@@ -1,0 +1,5 @@
+2024-09-16 21:04:23 [INFO] - Starting node 2, is Byzantine node: true
+2024-09-16 21:04:23 [INFO] - Node 2 is a replica node, waiting for messages
+2024-09-16 21:04:23 [INFO] - Node 2 started running
+2024-09-16 21:04:28 [INFO] - Node 2 detected a timeout, triggering view change
+2024-09-16 21:04:33 [INFO] - Node 2's new view timer timed out, view 1
